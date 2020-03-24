@@ -8,7 +8,6 @@ const Account = new Schema({
     },
     email: { type: String },
     
-    
     social: {
         facebook: {
             id: String,
