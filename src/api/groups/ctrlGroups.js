@@ -14,6 +14,7 @@ exports.list = async (ctx) => {
 };
 
 exports.create = async (ctx) => {
+    
     const {
         name
     } = ctx.request.body;

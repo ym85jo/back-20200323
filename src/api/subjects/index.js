@@ -4,6 +4,7 @@ const subjects = new Router();
 const subjectsCtrl = require('./ctrlSubjects');
 
 subjects.get('/', subjectsCtrl.list);
+subjects.get('/:id', subjectsCtrl.get);
 subjects.post('/', subjectsCtrl.create);
 subjects.delete('/', subjectsCtrl.delete);
 subjects.put('/', subjectsCtrl.replace);

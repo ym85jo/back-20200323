@@ -1,3 +1,8 @@
+
+exports.get = (ctx) => {
+    ctx.body = 'get';
+};
+
 exports.list = (ctx) => {
     ctx.body = 'listed';
 };
